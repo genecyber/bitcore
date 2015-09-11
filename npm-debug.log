@@ -1,0 +1,368 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'x11-hash' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose readDependencies npm-shrinkwrap.json is overriding dependencies
+6 info shrinkwrap file "C:\\repo\\_MulticoinSPV\\node_modules\\bitcore\\npm-shrinkwrap.json"
+7 verbose readDependencies returned deps { 'bn.js': 'https://registry.npmjs.org/bn.js/-/bn.js-2.0.4.tgz',
+7 verbose readDependencies returned deps   bs58: 'https://registry.npmjs.org/bs58/-/bs58-2.0.0.tgz',
+7 verbose readDependencies returned deps   elliptic: 'https://registry.npmjs.org/elliptic/-/elliptic-3.0.3.tgz',
+7 verbose readDependencies returned deps   'hash.js': 'https://registry.npmjs.org/hash.js/-/hash.js-1.0.2.tgz',
+7 verbose readDependencies returned deps   inherits: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz',
+7 verbose readDependencies returned deps   lodash: 'https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz',
+7 verbose readDependencies returned deps   sha512: 'https://registry.npmjs.org/sha512/-/sha512-0.0.1.tgz' }
+8 silly cache add args [ 'x11-hash', null ]
+9 verbose cache add spec x11-hash
+10 silly cache add parsed spec { raw: 'x11-hash',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'x11-hash',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 verbose addNamed x11-hash@*
+12 silly addNamed semver.valid null
+13 silly addNamed semver.validRange *
+14 silly addNameRange { name: 'x11-hash', range: '*', hasData: false }
+15 silly mapToRegistry name x11-hash
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/x11-hash
+19 verbose addNameRange registry:https://registry.npmjs.org/x11-hash not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/x11-hash
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 11:14:24 AM
+23 verbose request id 254c16bc4ce26891
+24 http request GET https://registry.npmjs.org/x11-hash
+25 http 200 https://registry.npmjs.org/x11-hash
+26 silly get cb [ 200,
+26 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly get     etag: '"33YR8E78WFVYH6IDNA6LU6IWZ"',
+26 silly get     'content-type': 'application/json',
+26 silly get     'cache-control': 'max-age=60',
+26 silly get     'content-length': '2317',
+26 silly get     'accept-ranges': 'bytes',
+26 silly get     date: 'Wed, 09 Sep 2015 15:14:32 GMT',
+26 silly get     via: '1.1 varnish',
+26 silly get     age: '0',
+26 silly get     connection: 'keep-alive',
+26 silly get     'x-served-by': 'cache-atl6220-ATL',
+26 silly get     'x-cache': 'MISS',
+26 silly get     'x-cache-hits': '0',
+26 silly get     'x-timer': 'S1441811672.178294,VS0,VE31',
+26 silly get     vary: 'Accept' } ]
+27 verbose get saving x11-hash to C:\Users\shannon\AppData\Roaming\npm-cache\registry.npmjs.org\x11-hash\.cache.json
+28 silly addNameRange number 2 { name: 'x11-hash', range: '*', hasData: true }
+29 silly addNameRange versions [ 'x11-hash', [ '0.0.2' ] ]
+30 verbose addNamed x11-hash@0.0.2
+31 silly addNamed semver.valid 0.0.2
+32 silly addNamed semver.validRange 0.0.2
+33 silly mapToRegistry name x11-hash
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/x11-hash
+37 verbose addRemoteTarball https://registry.npmjs.org/x11-hash/-/x11-hash-0.0.2.tgz not in flight; adding
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/x11-hash/-/x11-hash-0.0.2.tgz',
+38 verbose addRemoteTarball   '07c8bfb57bab98506cced2d47817b9fcf7b6df2e' ]
+39 info retry fetch attempt 1 at 11:14:24 AM
+40 info attempt registry request try #1 at 11:14:24 AM
+41 http fetch GET https://registry.npmjs.org/x11-hash/-/x11-hash-0.0.2.tgz
+42 http fetch 200 https://registry.npmjs.org/x11-hash/-/x11-hash-0.0.2.tgz
+43 silly fetchAndShaCheck shasum 07c8bfb57bab98506cced2d47817b9fcf7b6df2e
+44 verbose addTmpTarball C:\Users\shannon\AppData\Local\Temp\npm-25484-c7b7122d\registry.npmjs.org\x11-hash\-\x11-hash-0.0.2.tgz not in flight; adding
+45 verbose addTmpTarball already have metadata; skipping unpack for x11-hash@0.0.2
+46 silly cache afterAdd x11-hash@0.0.2
+47 verbose afterAdd C:\Users\shannon\AppData\Roaming\npm-cache\x11-hash\0.0.2\package\package.json not in flight; writing
+48 verbose afterAdd C:\Users\shannon\AppData\Roaming\npm-cache\x11-hash\0.0.2\package\package.json written
+49 silly install resolved [ { name: 'x11-hash',
+49 silly install resolved     version: '0.0.2',
+49 silly install resolved     main: 'x11hash',
+49 silly install resolved     author: { name: 'Matthew Little', email: 'zone117x@gmail.com' },
+49 silly install resolved     repository:
+49 silly install resolved      { type: 'git',
+49 silly install resolved        url: 'https://github.com/zone117x/node-x11-hash.git' },
+49 silly install resolved     dependencies: { bindings: '*' },
+49 silly install resolved     keywords:
+49 silly install resolved      [ 'x11',
+49 silly install resolved        'darkcoin',
+49 silly install resolved        'hirocoin',
+49 silly install resolved        'xcoin',
+49 silly install resolved        'drk',
+49 silly install resolved        'hash',
+49 silly install resolved        '256',
+49 silly install resolved        'crypto',
+49 silly install resolved        'cryptocurrency' ],
+49 silly install resolved     scripts: { install: 'node-gyp rebuild' },
+49 silly install resolved     gypfile: true,
+49 silly install resolved     description: 'node-x11-hash\r ===============',
+49 silly install resolved     bugs: { url: 'https://github.com/zone117x/node-x11-hash/issues' },
+49 silly install resolved     homepage: 'https://github.com/zone117x/node-x11-hash',
+49 silly install resolved     _id: 'x11-hash@0.0.2',
+49 silly install resolved     dist:
+49 silly install resolved      { shasum: '07c8bfb57bab98506cced2d47817b9fcf7b6df2e',
+49 silly install resolved        tarball: 'http://registry.npmjs.org/x11-hash/-/x11-hash-0.0.2.tgz' },
+49 silly install resolved     _from: 'x11-hash@*',
+49 silly install resolved     _npmVersion: '1.4.4',
+49 silly install resolved     _npmUser: { name: 'zone117x', email: 'zone117x@gmail.com' },
+49 silly install resolved     maintainers: [ [Object] ],
+49 silly install resolved     directories: {},
+49 silly install resolved     _shasum: '07c8bfb57bab98506cced2d47817b9fcf7b6df2e',
+49 silly install resolved     _resolved: 'https://registry.npmjs.org/x11-hash/-/x11-hash-0.0.2.tgz' } ]
+50 info install x11-hash@0.0.2 into C:\repo\_MulticoinSPV\node_modules\bitcore
+51 info installOne x11-hash@0.0.2
+52 verbose installOne of x11-hash to C:\repo\_MulticoinSPV\node_modules\bitcore not in flight; installing
+53 verbose lock using C:\Users\shannon\AppData\Roaming\npm-cache\_locks\x11-hash-87bb31c190f356ed.lock for C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+54 silly install write writing x11-hash 0.0.2 to C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+55 silly cache addNamed cb x11-hash@0.0.2
+56 verbose unbuild node_modules\x11-hash
+57 silly gentlyRm C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash is being purged from base C:\repo\_MulticoinSPV\node_modules\bitcore
+58 verbose gentlyRm don't care about contents; nuking C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+59 verbose tar unpack C:\Users\shannon\AppData\Roaming\npm-cache\x11-hash\0.0.2\package.tgz
+60 verbose tar unpacking to C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+61 silly gentlyRm C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash is being purged
+62 verbose gentlyRm don't care about contents; nuking C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+63 silly gunzTarPerm modes [ '777', '666' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+68 silly gunzTarPerm extractEntry index.js
+69 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+70 silly gunzTarPerm extractEntry binding.gyp
+71 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+72 silly gunzTarPerm extractEntry sha3/sph_blake.h
+73 silly gunzTarPerm modified mode [ 'sha3/sph_blake.h', 420, 438 ]
+74 silly gunzTarPerm extractEntry sha3/aes_helper.c
+75 silly gunzTarPerm modified mode [ 'sha3/aes_helper.c', 420, 438 ]
+76 silly gunzTarPerm extractEntry sha3/bmw.c
+77 silly gunzTarPerm modified mode [ 'sha3/bmw.c', 420, 438 ]
+78 silly gunzTarPerm extractEntry sha3/cubehash.c
+79 silly gunzTarPerm modified mode [ 'sha3/cubehash.c', 420, 438 ]
+80 silly gunzTarPerm extractEntry sha3/echo.c
+81 silly gunzTarPerm modified mode [ 'sha3/echo.c', 420, 438 ]
+82 silly gunzTarPerm extractEntry sha3/groestl.c
+83 silly gunzTarPerm modified mode [ 'sha3/groestl.c', 420, 438 ]
+84 silly gunzTarPerm extractEntry sha3/jh.c
+85 silly gunzTarPerm modified mode [ 'sha3/jh.c', 420, 438 ]
+86 silly gunzTarPerm extractEntry sha3/keccak.c
+87 silly gunzTarPerm modified mode [ 'sha3/keccak.c', 420, 438 ]
+88 silly gunzTarPerm extractEntry sha3/luffa.c
+89 silly gunzTarPerm modified mode [ 'sha3/luffa.c', 420, 438 ]
+90 silly gunzTarPerm extractEntry sha3/shavite.c
+91 silly gunzTarPerm modified mode [ 'sha3/shavite.c', 420, 438 ]
+92 silly gunzTarPerm extractEntry sha3/simd.c
+93 silly gunzTarPerm modified mode [ 'sha3/simd.c', 420, 438 ]
+94 silly gunzTarPerm extractEntry sha3/skein.c
+95 silly gunzTarPerm modified mode [ 'sha3/skein.c', 420, 438 ]
+96 silly gunzTarPerm extractEntry sha3/blake.c
+97 silly gunzTarPerm modified mode [ 'sha3/blake.c', 420, 438 ]
+98 silly gunzTarPerm extractEntry sha3/sph_bmw.h
+99 silly gunzTarPerm modified mode [ 'sha3/sph_bmw.h', 420, 438 ]
+100 silly gunzTarPerm extractEntry sha3/sph_cubehash.h
+101 silly gunzTarPerm modified mode [ 'sha3/sph_cubehash.h', 420, 438 ]
+102 silly gunzTarPerm extractEntry sha3/sph_echo.h
+103 silly gunzTarPerm modified mode [ 'sha3/sph_echo.h', 420, 438 ]
+104 silly gunzTarPerm extractEntry sha3/sph_groestl.h
+105 silly gunzTarPerm modified mode [ 'sha3/sph_groestl.h', 420, 438 ]
+106 silly gunzTarPerm extractEntry sha3/sph_jh.h
+107 silly gunzTarPerm modified mode [ 'sha3/sph_jh.h', 420, 438 ]
+108 silly gunzTarPerm extractEntry sha3/sph_keccak.h
+109 silly gunzTarPerm modified mode [ 'sha3/sph_keccak.h', 420, 438 ]
+110 silly gunzTarPerm extractEntry sha3/sph_luffa.h
+111 silly gunzTarPerm modified mode [ 'sha3/sph_luffa.h', 420, 438 ]
+112 silly gunzTarPerm extractEntry sha3/sph_shavite.h
+113 silly gunzTarPerm modified mode [ 'sha3/sph_shavite.h', 420, 438 ]
+114 silly gunzTarPerm extractEntry sha3/sph_simd.h
+115 silly gunzTarPerm modified mode [ 'sha3/sph_simd.h', 420, 438 ]
+116 silly gunzTarPerm extractEntry sha3/sph_skein.h
+117 silly gunzTarPerm modified mode [ 'sha3/sph_skein.h', 420, 438 ]
+118 silly gunzTarPerm extractEntry sha3/sph_types.h
+119 silly gunzTarPerm modified mode [ 'sha3/sph_types.h', 420, 438 ]
+120 silly gunzTarPerm extractEntry x11hash.cc
+121 silly gunzTarPerm modified mode [ 'x11hash.cc', 420, 438 ]
+122 silly gunzTarPerm extractEntry xcoin.c
+123 silly gunzTarPerm modified mode [ 'xcoin.c', 420, 438 ]
+124 silly gunzTarPerm extractEntry xcoin.h
+125 silly gunzTarPerm modified mode [ 'xcoin.h', 420, 438 ]
+126 info preinstall x11-hash@0.0.2
+127 silly prepareForInstallMany adding bindings@* from x11-hash dependencies
+128 silly cache add args [ 'bindings@*', null ]
+129 verbose cache add spec bindings@*
+130 silly cache add parsed spec { raw: 'bindings@*',
+130 silly cache add   scope: null,
+130 silly cache add   name: 'bindings',
+130 silly cache add   rawSpec: '*',
+130 silly cache add   spec: '*',
+130 silly cache add   type: 'range' }
+131 verbose addNamed bindings@*
+132 silly addNamed semver.valid null
+133 silly addNamed semver.validRange *
+134 silly addNameRange { name: 'bindings', range: '*', hasData: false }
+135 silly mapToRegistry name bindings
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry uri https://registry.npmjs.org/bindings
+139 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+140 verbose request uri https://registry.npmjs.org/bindings
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 11:14:25 AM
+143 verbose etag "C703GY7AAJXUO0UMZR0WSP7SV"
+144 http request GET https://registry.npmjs.org/bindings
+145 http 200 https://registry.npmjs.org/bindings
+146 silly get cb [ 200,
+146 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+146 silly get     etag: '"D2XXGHY5EXANSKX6Q9FJABZ7W"',
+146 silly get     'content-type': 'application/json',
+146 silly get     'cache-control': 'max-age=60',
+146 silly get     'content-length': '18004',
+146 silly get     'accept-ranges': 'bytes',
+146 silly get     date: 'Wed, 09 Sep 2015 15:14:33 GMT',
+146 silly get     via: '1.1 varnish',
+146 silly get     age: '7',
+146 silly get     connection: 'keep-alive',
+146 silly get     'x-served-by': 'cache-atl6231-ATL',
+146 silly get     'x-cache': 'HIT',
+146 silly get     'x-cache-hits': '1',
+146 silly get     'x-timer': 'S1441811673.255861,VS0,VE0',
+146 silly get     vary: 'Accept' } ]
+147 verbose get saving bindings to C:\Users\shannon\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+148 silly addNameRange number 2 { name: 'bindings', range: '*', hasData: true }
+149 silly addNameRange versions [ 'bindings',
+149 silly addNameRange   [ '0.0.1',
+149 silly addNameRange     '0.1.0',
+149 silly addNameRange     '0.1.1',
+149 silly addNameRange     '0.2.0',
+149 silly addNameRange     '0.2.1',
+149 silly addNameRange     '0.2.2',
+149 silly addNameRange     '0.2.3',
+149 silly addNameRange     '0.2.4',
+149 silly addNameRange     '0.3.0',
+149 silly addNameRange     '0.4.0',
+149 silly addNameRange     '1.0.0',
+149 silly addNameRange     '1.1.0',
+149 silly addNameRange     '1.1.1',
+149 silly addNameRange     '1.2.0',
+149 silly addNameRange     '1.2.1' ] ]
+150 verbose addNamed bindings@1.2.1
+151 silly addNamed semver.valid 1.2.1
+152 silly addNamed semver.validRange 1.2.1
+153 silly cache afterAdd bindings@1.2.1
+154 verbose afterAdd C:\Users\shannon\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+155 verbose afterAdd C:\Users\shannon\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+156 silly install resolved [ { name: 'bindings',
+156 silly install resolved     description: 'Helper module for loading your native module\'s .node file',
+156 silly install resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+156 silly install resolved     version: '1.2.1',
+156 silly install resolved     author:
+156 silly install resolved      { name: 'Nathan Rajlich',
+156 silly install resolved        email: 'nathan@tootallnate.net',
+156 silly install resolved        url: 'http://tootallnate.net' },
+156 silly install resolved     repository:
+156 silly install resolved      { type: 'git',
+156 silly install resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+156 silly install resolved     main: './bindings.js',
+156 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+156 silly install resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+156 silly install resolved     license: 'MIT',
+156 silly install resolved     gitHead: 'e404152ee27f8478ccbc7122ee051246e8e5ec02',
+156 silly install resolved     _id: 'bindings@1.2.1',
+156 silly install resolved     scripts: {},
+156 silly install resolved     _shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+156 silly install resolved     _from: 'bindings@*',
+156 silly install resolved     _npmVersion: '1.4.14',
+156 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+156 silly install resolved     maintainers: [ [Object], [Object] ],
+156 silly install resolved     dist:
+156 silly install resolved      { shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+156 silly install resolved        tarball: 'http://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+156 silly install resolved     directories: {},
+156 silly install resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+156 silly install resolved     readme: 'ERROR: No README data found!' } ]
+157 info install bindings@1.2.1 into C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+158 info installOne bindings@1.2.1
+159 verbose installOne of bindings to C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash not in flight; installing
+160 verbose lock using C:\Users\shannon\AppData\Roaming\npm-cache\_locks\bindings-bb90cbf73255bf63.lock for C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash\node_modules\bindings
+161 silly install write writing bindings 1.2.1 to C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash\node_modules\bindings
+162 silly cache addNamed cb bindings@1.2.1
+163 verbose unbuild node_modules\x11-hash\node_modules\bindings
+164 silly gentlyRm C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash\node_modules\bindings is being purged from base C:\repo\_MulticoinSPV\node_modules\bitcore
+165 verbose gentlyRm don't care about contents; nuking C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash\node_modules\bindings
+166 verbose tar unpack C:\Users\shannon\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+167 verbose tar unpacking to C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash\node_modules\bindings
+168 silly gentlyRm C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash\node_modules\bindings is being purged
+169 verbose gentlyRm don't care about contents; nuking C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash\node_modules\bindings
+170 silly gunzTarPerm modes [ '777', '666' ]
+171 silly gunzTarPerm extractEntry package.json
+172 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+173 silly gunzTarPerm extractEntry README.md
+174 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+175 silly gunzTarPerm extractEntry bindings.js
+176 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+177 info preinstall bindings@1.2.1
+178 silly install resolved []
+179 verbose about to build C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash\node_modules\bindings
+180 info build C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash\node_modules\bindings
+181 verbose linkStuff [ false,
+181 verbose linkStuff   false,
+181 verbose linkStuff   false,
+181 verbose linkStuff   'C:\\repo\\_MulticoinSPV\\node_modules\\bitcore\\node_modules\\x11-hash\\node_modules' ]
+182 info linkStuff bindings@1.2.1
+183 verbose linkBins bindings@1.2.1
+184 verbose linkMans bindings@1.2.1
+185 verbose rebuildBundles bindings@1.2.1
+186 info install bindings@1.2.1
+187 info postinstall bindings@1.2.1
+188 verbose unlock done using C:\Users\shannon\AppData\Roaming\npm-cache\_locks\bindings-bb90cbf73255bf63.lock for C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash\node_modules\bindings
+189 verbose about to build C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+190 info build C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+191 verbose linkStuff [ false,
+191 verbose linkStuff   false,
+191 verbose linkStuff   false,
+191 verbose linkStuff   'C:\\repo\\_MulticoinSPV\\node_modules\\bitcore\\node_modules' ]
+192 info linkStuff x11-hash@0.0.2
+193 verbose linkBins x11-hash@0.0.2
+194 verbose linkMans x11-hash@0.0.2
+195 verbose rebuildBundles x11-hash@0.0.2
+196 verbose rebuildBundles [ 'bindings' ]
+197 info install x11-hash@0.0.2
+198 verbose unsafe-perm in lifecycle true
+199 info x11-hash@0.0.2 Failed to exec install script
+200 verbose unlock done using C:\Users\shannon\AppData\Roaming\npm-cache\_locks\x11-hash-87bb31c190f356ed.lock for C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+201 verbose stack Error: x11-hash@0.0.2 install: `node-gyp rebuild`
+201 verbose stack Exit status 1
+201 verbose stack     at EventEmitter.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+201 verbose stack     at EventEmitter.emit (events.js:110:17)
+201 verbose stack     at ChildProcess.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+201 verbose stack     at ChildProcess.emit (events.js:110:17)
+201 verbose stack     at maybeClose (child_process.js:1015:16)
+201 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+202 verbose pkgid x11-hash@0.0.2
+203 verbose cwd C:\repo\_MulticoinSPV\node_modules\bitcore
+204 error Windows_NT 6.3.9600
+205 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "x11-hash"
+206 error node v0.12.2
+207 error npm  v2.7.4
+208 error code ELIFECYCLE
+209 error x11-hash@0.0.2 install: `node-gyp rebuild`
+209 error Exit status 1
+210 error Failed at the x11-hash@0.0.2 install script 'node-gyp rebuild'.
+210 error This is most likely a problem with the x11-hash package,
+210 error not with npm itself.
+210 error Tell the author that this fails on your system:
+210 error     node-gyp rebuild
+210 error You can get their info via:
+210 error     npm owner ls x11-hash
+210 error There is likely additional logging output above.
+211 verbose exit [ 1, true ]
+212 verbose unbuild node_modules\x11-hash
+213 info preuninstall x11-hash@0.0.2
+214 info uninstall x11-hash@0.0.2
+215 verbose unbuild rmStuff x11-hash@0.0.2 from C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules
+216 info postuninstall x11-hash@0.0.2
+217 silly gentlyRm C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash is being purged from base C:\repo\_MulticoinSPV\node_modules\bitcore
+218 verbose gentlyRm don't care about contents; nuking C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+219 silly vacuum-fs purging C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules\x11-hash
+220 silly vacuum-fs quitting because other entries in C:\repo\_MulticoinSPV\node_modules\bitcore\node_modules
