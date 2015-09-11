@@ -1,8 +1,11 @@
 {
   "name": "bitcore",
-  "version": "0.13.3",
+  "version": "0.12.15",
   "description": "A pure and powerful JavaScript Bitcoin library.",
-  "author": "BitPay <dev@bitpay.com>",
+  "author": {
+    "name": "BitPay",
+    "email": "dev@bitpay.com"
+  },
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -73,7 +76,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "git+https://github.com/bitpay/bitcore.git"
   },
   "browser": {
     "request": "browser-request"
@@ -84,15 +87,45 @@
     "elliptic": "=3.0.3",
     "hash.js": "=1.0.2",
     "inherits": "=2.0.1",
-    "lodash": "=3.10.1",
+    "lodash": "=2.4.1",
     "sha512": "=0.0.1"
   },
   "devDependencies": {
-    "bitcore-build": "bitpay/bitcore-build",
+    "bitcore-build": "github:bitpay/bitcore-build",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
     "sinon": "^1.13.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "bb69e111b8a791c3066121204ae586e1bbb03f74",
+  "bugs": {
+    "url": "https://github.com/bitpay/bitcore/issues"
+  },
+  "homepage": "https://github.com/bitpay/bitcore#readme",
+  "_id": "bitcore@0.12.15",
+  "_shasum": "94fdbe3d5b6946bc8e8ad68f8000dccf92b6f43d",
+  "_from": "bitcore@>=0.12.0 <0.13.0",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "braydonf",
+    "email": "braydon@bitpay.com"
+  },
+  "maintainers": [
+    {
+      "name": "gasteve",
+      "email": "stephen@pairhome.net"
+    },
+    {
+      "name": "braydonf",
+      "email": "braydon@bitpay.com"
+    }
+  ],
+  "dist": {
+    "shasum": "94fdbe3d5b6946bc8e8ad68f8000dccf92b6f43d",
+    "tarball": "http://registry.npmjs.org/bitcore/-/bitcore-0.12.15.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/bitcore/-/bitcore-0.12.15.tgz"
 }
